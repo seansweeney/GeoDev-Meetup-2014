@@ -32,10 +32,6 @@
 		</script>
 
 		<style type='text/css'>
-			.reveal.has-parallax-background .backgrounds {
-				opacity: 0.6;
-			}
-
 			.reveal section img {
 				background-color: transparent;
 				border: none;
@@ -73,10 +69,10 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background="images/one_ring.png" data-background-size="500px">
+				<section>
 					<h1><p>One Metadata to Rule Them All</p></h1>
-					<h3><p>NEARC - Groton, CT </p>
-						<p>October 7, 2014</p>
+					<h3><p>Esri GeoDev Meetup - Boston</p>
+						<p>December 3, 2014</p>
 					</h3>
 					<h4><p>Sean Sweeney, GIS Programmer Analyst</p>
 						<p>Rachel Sheketoff, Web Developer</p>
@@ -98,23 +94,7 @@
 
 				<section>
 					<h3>Rachel</h3>
-					<img src='images/femalecodertocat.png' alt='Rachel' />
-				</section>
-
-				<section>
-					<img src='images/sde_metadata.png' alt='SDE' style='position: absolute; top: -10px; left: -10px; margin: 0px; border: none; max-width: none; max-height: none; z-index=10'/>
-					<span class='fragment'>
-						<img src='images/old_data_dictionary.png' alt='Data Dictionary' style='position: absolute; top: 0px; left: 0px; margin: 0px; border: none; max-width: none; max-height: none; z-index=20'/>
-					</span>
-					<span class='fragment'>
-						<img src='images/old_data_maintenance.png' alt='Data Maintenance' style='position: absolute; top: 10px; left: 10px; margin: 0px; border: none; max-width: none; max-height: none; z-index=20'/>
-					</span>
-					<aside class="notes">
-						<p>This is a problem I have been thinking about for a couple of years now.  At that time we had our
-						SDE metadata plus our online data dictionary pages and our data maintenance pages, which were 
-						Word documents.  Three separate things that needed to be maintained separately.
-						</p>
-					</aside>
+					<img src='images/femalecodertocat.png' alt='Rachel' style='position: absolute; top: 30px; left: 50px; margin: 0px; border: none; max-width: none; max-height: none;' />
 				</section>
 
 				<section>
@@ -138,6 +118,11 @@
 						<img src='images/socrata.png' alt='Socrata' style='position: absolute; top: 30px; left: 30px; margin: 0px; border: none; max-width: none; max-height: none; z-index=20'/>
 					</span>
 					<aside class="notes">
+						<p>This is a problem I have been thinking about for a couple of years now.  At that time we had our
+						SDE metadata plus our online data dictionary pages and our data maintenance pages, which were 
+						Word documents.  Three separate things that needed to be maintained separately.
+						</p>
+
 						<p>In the past year or so, it became an even bigger issue as we started to distribute our data in new
 						ways.  In addition to our newly revamped online data dictionary and data maintenance pages, we were
 						now putting data on GitHub, ArcGIS Online, and Socrata.  This left us with even more places that the 
@@ -148,21 +133,11 @@
 
 				<section>
 					<img src='images/vision1.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
-					<span class='fragment'>
-						<img src='images/vision2.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
-					</span>
-					<span class='fragment'>
-						<img src='images/vision3.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
-					</span>
-					<span class='fragment'>
-						<img src='images/vision4.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
-					</span>
-					<span class='fragment'>
-						<img src='images/vision5.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
-					</span>
-					<span class='fragment'>
-						<img src='images/vision6.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
-					</span>
+					<img src='images/vision2.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
+					<img src='images/vision3.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
+					<img src='images/vision4.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
+					<img src='images/vision5.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
+					<img src='images/vision6.png' style='position:absolute; top: 0px; left: 0px; margin: 0px; max-width: none; max-height: none;' />
 					<aside class='notes'>
 						<p>We started to think about how we could edit the metadata once and distribute it from that central
 						point like we do with the data itself.  The most logical starting point was also the starting point
@@ -492,9 +467,9 @@ def updateItemDescription(userID, folderID, itemID, portalURL, token=None, snipp
 					<p>Email: ssweeney@cambridgema.gov</p>
 					<p>Twitter: @hiker4k</p>
 					<p>GitHub: seansweeney</p>
-					<p>These Slides: <a target='_blank' href='http://bit.ly/nearc2014sweeney' style='color:#E5F80E'>http://bit.ly/nearc2014sweeney</a></p>
+					<p>These Slides: <a target='_blank' href='http://bit.ly/geodev2014sweeney'>http://bit.ly/geodev2014sweeney</a></p>
 					<h2>Us</h2>
-					<p>Web: <a target='_blank' href='http://cambridgema.gov/gis' style='color:#E5F80E'>http://cambridgema.gov/gis</a></p>
+					<p>Web: <a target='_blank' href='http://cambridgema.gov/gis'>http://cambridgema.gov/gis</a></p>
 					<p>Twitter: @CambridgeGIS</p>
 				</section>
 
@@ -514,14 +489,10 @@ def updateItemDescription(userID, folderID, itemID, portalURL, token=None, snipp
 				progress: true,
 				history: true,
 				center: false,
-				slideNumber: false,
+				slideNumber: true,
 
-//				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				theme: Reveal.getQueryHash().theme || 'solarized', // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
-
-				// Parallax scrolling
-				parallaxBackgroundImage: 'images/Map-of-Middle-Earth-lord-of-the-rings-2329809-1600-1200.jpg',
-				parallaxBackgroundSize: '1600px 1200px',
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
